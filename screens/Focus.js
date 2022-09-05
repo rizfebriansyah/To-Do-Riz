@@ -70,14 +70,14 @@ const Focus = () => {
 		setStartTimer(true);
 	};
 
-	const updatCoin = async () => {
+	const updateCoin = async () => {
 		await updateDoc(doc(db, "Users", myInfo.uid), {
 			coins: myInfo.coins + 20,
 		});
 	};
 
 	const timerCallbackFunc = (timerFlag) => {
-		updatCoin();
+		updateCoin();
 		setSound(false);
 		setStartTimer(false);
 		setShow(true);
