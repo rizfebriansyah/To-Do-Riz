@@ -1,6 +1,6 @@
-# ToDoRiz
+ToDoRiz
 
-#To run the application:
+To run the application:
 
 using terminal
 
