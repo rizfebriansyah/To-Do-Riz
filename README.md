@@ -1,9 +1,7 @@
-#ToDoRiz
+# ToDoRiz
 
 To run the application:
-
-using terminal
-
-cd to respective folder
-yarn install
-expo start
+1) using terminal
+2) cd to respective folder
+3) yarn install
+4) expo start
